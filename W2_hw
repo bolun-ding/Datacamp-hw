@@ -1,1 +1,4 @@
-
+1. Pull total number of orders that were completed on 18th March 2023
+  SELECT COUNT(order_id) as orders
+  FROM sales
+  WHERE Date(completed_date) = '03-18-2023'
